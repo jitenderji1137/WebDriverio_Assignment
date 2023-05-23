@@ -63,7 +63,7 @@ describe('Checking webdricerio',() => {
         await $('//*[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/btn_start_skip"]').click();
         await $('//*[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/main_btn1"]').click();
         await $('//*[@text="Text"]').click();
-        await $('//*[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/edit_note"]').addValue("Kaushik Biswas");
+        await $('//*[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/edit_note"]').addValue("Jitender");
         await driver.back();
         await driver.back();
         await driver.back();
